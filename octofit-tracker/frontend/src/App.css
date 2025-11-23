@@ -1,0 +1,110 @@
+
+body {
+  background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+  color: #222;
+}
+
+.App {
+  text-align: center;
+  background: #f8f9fa;
+  min-height: 100vh;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #007bff 0%, #00c6ff 100%) !important;
+  color: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  color: #fff !important;
+  font-size: 1.5rem;
+}
+.navbar-brand img {
+  height: 40px;
+  margin-right: 12px;
+}
+.nav-link {
+  color: #fff !important;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+.nav-link:hover {
+  color: #ffe082 !important;
+}
+
+.btn-primary, .btn-outline-light {
+  background: linear-gradient(90deg, #007bff 0%, #00c6ff 100%);
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+.btn-primary:hover, .btn-outline-light:hover {
+  background: linear-gradient(90deg, #0056b3 0%, #00b3b3 100%);
+  color: #ffe082;
+}
+
+.card {
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+  border-radius: 12px;
+  margin-bottom: 2rem;
+}
+.card-title {
+  color: #007bff;
+  font-weight: 700;
+}
+.card-text {
+  color: #333;
+}
+
+table {
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.table-dark {
+  background: linear-gradient(90deg, #007bff 0%, #00c6ff 100%);
+  color: #fff;
+}
+th, td {
+  text-align: left;
+  padding: 0.75rem;
+}
+tr:nth-child(even) {
+  background: #f1f8ff;
+}
+tr:hover {
+  background: #e3f2fd;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+a:hover {
+  color: #00c6ff;
+  text-decoration: underline;
+}
+
+input, .form-control {
+  border-radius: 8px;
+  border: 1px solid #007bff;
+}
+
+/* Favicon and logo animation */
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+  animation: App-logo-spin infinite 20s linear;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
